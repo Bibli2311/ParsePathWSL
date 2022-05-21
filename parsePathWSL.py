@@ -1,7 +1,7 @@
 import sys
 
 try:
-    path = sys.argv[1]
+    path = sys.argv[1]  
 except IndexError:
     print("Error: Pass in an argument for specifying path")
     print("For example: python3 fixPath.py C:\\Users\\oscar\\Music\\")
