@@ -1,7 +1,7 @@
 # ParsePathWSL
 A simple Python script which parses a path from windows into a format which is compatible with Windows Subsystem for Linux (WSL)
 
-#Usage
+# Usage
 
 python3 parsePathWSL.py 'C:\Users\ubuntu\Music\'
 Then the script will return a WSL compatible path like this: /mnt/c/Users/ubuntu/Music/
