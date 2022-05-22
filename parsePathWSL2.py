@@ -20,3 +20,5 @@ for element in path:
 resultPath = "/mnt/c" + parsedPath[2:] #add /mnt/c to string, and remove "C:/" from the parsed path
 print(resultPath)
 
+os.chdir(resultPath)
+os.system('bash')
